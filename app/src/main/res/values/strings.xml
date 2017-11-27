@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kwoot</string>
+    <string name="title_Trending">Trending</string>
+    <string name="title_Add">Add</string>
+    <string name="title_All">All</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+
+</resources>

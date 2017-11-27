@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689552753042",
+    "firebase_url": "https://kwoot-88075.firebaseio.com",
+    "project_id": "kwoot-88075",
+    "storage_bucket": "kwoot-88075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689552753042:android:f806f3aa9168cc2c",
+        "android_client_info": {
+          "package_name": "antoinemoghaddar.app.digitalmoose.com.kwoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689552753042-nuc6ldsf5ctv7bq3b0ki9sdi4mnicj6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "antoinemoghaddar.app.digitalmoose.com.kwoot",
+            "certificate_hash": "36f457e91b4e83bab280debd409b32d594fe1549"
+          }
+        },
+        {
+          "client_id": "689552753042-20kbjuhv0j938pefo0h04tgl0d22fveg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS6N5nCDL0lDINODKjwwqNxFjBZju_dms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689552753042-20kbjuhv0j938pefo0h04tgl0d22fveg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
