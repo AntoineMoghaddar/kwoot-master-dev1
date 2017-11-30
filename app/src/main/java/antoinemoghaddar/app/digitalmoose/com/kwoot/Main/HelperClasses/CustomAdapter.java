@@ -16,7 +16,8 @@ import java.util.List;
 import antoinemoghaddar.app.digitalmoose.com.kwoot.R;
 
 /**
- * Created by gebruiker on 17/11/2017.
+ * @author Antoine Moghaddar
+ *
  */
 
 public class CustomAdapter extends ArrayAdapter<Kwoot> {

@@ -11,5 +11,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="todo">TODO</string>
     <string name="textview">TextView</string>
+    <string name="prompt_email">Email</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="add_items_to_database">Add Items to Database</string>
+    <string name="sign_out">Sign out</string>
+    <string name="password">Password</string>
 
 </resources>

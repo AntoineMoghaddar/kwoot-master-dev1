@@ -1,10 +1,5 @@
 package antoinemoghaddar.app.digitalmoose.com.kwoot.Main.HelperClasses;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import java.util.Date;
-
 /**
  * Created by gebruiker on 17/11/2017.
  */
@@ -14,24 +9,9 @@ public class Kwoot {
     private String author, text, location, date;
     private static int likes;
 
-    public Kwoot(String author, String text, String location, String date) {
-        this.author = author;
-        this.text = text;
-        this.location = location;
-        this.date = date;
+    public Kwoot() {
+        //Needed for Firebase
     }
-
-    public Kwoot(String text, String location, String date) {
-        this.text = text;
-        this.location = location;
-        this.date = date;
-    }
-
-    public Kwoot(String text, String author) {
-        this.text = text;
-        this.author = author;
-    }
-
 
     public String getAuthor() {
         return author;
@@ -65,11 +45,26 @@ public class Kwoot {
         this.date = date;
     }
 
+    public static void setLikes(int likes) {
+        Kwoot.likes = likes;
+    }
+
     public int getLikes() {
         return likes;
     }
 
     public static void addLikes() {
         Kwoot.likes++;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Kwoot{" +
+                "author='" + author + '\'' +
+                ", text='" + text + '\'' +
+                ", location='" + location + '\'' +
+                ", date='" + date + '\'' +
+                '}';
     }
 }
